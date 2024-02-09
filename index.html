@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpFIle</title>
+</head>
+<body>
+    
+        <input type="file" id="file-input" accept="image/*"  required>
+        <p id="fileTypeResult"></p>
+        <button id="up">Upload</button>
+        <div id="anh"></div>
+        <div id="infoanh" style="display:none">
+            <div>
+                <h1 id="Ten"></h1>
+                <p id="filename"></p>
+                <button><a href="" target="_blank" rel="noopener noreferrer">Download</a></button>
+            </div>
+        </div>
+      <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-storage.js"></script>
+      <script src="js/script.js"></script>
+</body>
+</html>
